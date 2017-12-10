@@ -292,7 +292,8 @@ venv.bak/
 
 
 .vscode/
-*.sframe
+*.sframe/
 *.model
+image_test/
 
 # End of https://www.gitignore.io/api/python

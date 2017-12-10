@@ -12,7 +12,7 @@ data =  tc.SFrame('frutifyV1.sframe')
 train_data, test_data = data.random_split(0.8)
 
 # Automatically picks the right model based on your data.
-model = tc.image_classifier.create(train_data, target='label')
+model = tc.image_classifier.create(train_data, target='label', max_iterations = 1000)
 
 # Save predictions to an SArray
 predictions = model.predict(test_data)
