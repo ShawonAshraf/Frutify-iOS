@@ -1,3 +1,8 @@
+"""
+    taken from:
+    https://github.com/apple/turicreate/blob/master/userguide/image_classifier/introduction.md
+"""
+
 import turicreate as tc
 
 # Load the data
