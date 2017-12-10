@@ -14,7 +14,7 @@ Binary image classification of fruits. The trained model can determine whether a
 ### Screenshots
 
 #### Correct predictions
-Real : Fresh, Predicted : Fresh | Real : Fresh Predicted: Fresh| Real : Fresh Predicted: Fresh
+Real : Fresh, Predicted : Fresh | Real : Fresh, Predicted: Fresh| Real : Fresh, Predicted: Fresh
 :------------------------------:| :------------------------------:| :------------------------------:|
 ![Imgur](https://i.imgur.com/0vGopbq.jpg)| ![Imgur](https://i.imgur.com/khm446d.jpg)| ![Imgur](https://i.imgur.com/So1510V.jpg)
 
