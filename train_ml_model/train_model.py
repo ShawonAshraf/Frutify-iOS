@@ -13,8 +13,6 @@ labels = ['fresh_apple',
             'rotten_orange'
         ]
 
-
-
 image_data['label'] = image_data['path'].apply(lambda path: 'fresh' if 'fresh' in path else 'rotten')
 
 # save data
