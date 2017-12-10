@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */; };
+		030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */; };
 		03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32C1FDD4CE80086EE53 /* ViewController.swift */; };
 		03E0D3301FDD4CE80086EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0D32E1FDD4CE80086EE53 /* Main.storyboard */; };
@@ -18,12 +20,6 @@
 		03E0D35D1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D35C1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel */; };
 		03E0D35E1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D35C1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel */; };
 		03E0D35F1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D35C1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel */; };
-		03E0D3621FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3601FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
-		03E0D3631FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3601FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
-		03E0D3641FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3601FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
-		03E0D3651FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3611FDD4DC80086EE53 /* ImageClassificationViewController.swift */; };
-		03E0D3661FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3611FDD4DC80086EE53 /* ImageClassificationViewController.swift */; };
-		03E0D3671FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3611FDD4DC80086EE53 /* ImageClassificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		03E0D3271FDD4CE80086EE53 /* Frutify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frutify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0D32C1FDD4CE80086EE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +57,6 @@
 		03E0D34D1FDD4CE80086EE53 /* FrutifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutifyUITests.swift; sourceTree = "<group>"; };
 		03E0D34F1FDD4CE80086EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E0D35C1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FrutifyV1_beta.mlmodel; sourceTree = "<group>"; };
-		03E0D3601FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGImagePropertyOrientation+UIImageOrientation.swift"; path = "../../../../../../../Desktop/CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
-		03E0D3611FDD4DC80086EE53 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageClassificationViewController.swift; path = ../../../../../../../Desktop/ImageClassificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +108,8 @@
 		03E0D3291FDD4CE80086EE53 /* Frutify */ = {
 			isa = PBXGroup;
 			children = (
-				03E0D3601FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
-				03E0D3611FDD4DC80086EE53 /* ImageClassificationViewController.swift */,
+				030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */,
 				03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */,
 				03E0D32C1FDD4CE80086EE53 /* ViewController.swift */,
 				03E0D32E1FDD4CE80086EE53 /* Main.storyboard */,
@@ -292,10 +288,10 @@
 			files = (
 				03E0D3331FDD4CE80086EE53 /* Frutify.xcdatamodeld in Sources */,
 				03E0D35D1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */,
-				03E0D3651FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */,
 				03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */,
 				03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */,
-				03E0D3621FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E0D3661FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */,
 				03E0D3431FDD4CE80086EE53 /* FrutifyTests.swift in Sources */,
-				03E0D3631FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				03E0D35E1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,9 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E0D3671FDD4DC80086EE53 /* ImageClassificationViewController.swift in Sources */,
 				03E0D34E1FDD4CE80086EE53 /* FrutifyUITests.swift in Sources */,
-				03E0D3641FDD4DC80086EE53 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				03E0D35F1FDD4D9A0086EE53 /* FrutifyV1_beta.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
