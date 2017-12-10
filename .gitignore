@@ -290,4 +290,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+
+.vscode/
+*.sframe/
+*.model
+image_test/
+
 # End of https://www.gitignore.io/api/python
