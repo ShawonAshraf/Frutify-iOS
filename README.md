@@ -70,3 +70,9 @@ python predict.py
 - Initiate the model inside your swift code and run inference on images captured or in the way you have defined image input on your app.
 - If you wish to use the existing app, just import the mlmodel into project directory and build.
 - Best if you can test on a device instead of an emulator.
+
+
+### References
+
+- [Classifying Images with Vision and Core ML](https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml)
+- [Turi Create README](https://github.com/apple/turicreate)
