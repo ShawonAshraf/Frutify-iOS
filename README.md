@@ -23,7 +23,7 @@ Real : Fresh, Predicted : Fresh | Real : Rotten, Predicted : Rotten | Real : Fre
 ![Imgur](https://i.imgur.com/pk6237T.jpg)| ![Imgur](https://i.imgur.com/y2bT0JF.jpg)| ![Imgur](https://i.imgur.com/BrIxqWY.jpg)
 
 #### Wrong predcictions
-Real : Fresh, Predicted : Rotten | Real : Fresh, Predicted : Fresh |
+Real : Fresh, Predicted : Rotten | Real : Fresh, Predicted : Rotten |
 :------------------------------:| :------------------------------:|
 ![Imgur](https://i.imgur.com/a1m0xUL.jpg) | ![Imgur](https://i.imgur.com/icN3mXy.jpg)|
 
