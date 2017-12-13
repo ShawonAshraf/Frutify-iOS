@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */; };
 		030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
-		0355750D1FE18CA8008C0013 /* icons8-categorize-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355750C1FE18CA8008C0013 /* icons8-categorize-50.png */; };
+		0355750F1FE18E1C008C0013 /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355750E1FE18E1C008C0013 /* master.png */; };
 		03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */; };
 		03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32C1FDD4CE80086EE53 /* ViewController.swift */; };
 		03E0D3301FDD4CE80086EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0D32E1FDD4CE80086EE53 /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
 		030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
-		0355750C1FE18CA8008C0013 /* icons8-categorize-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-categorize-50.png"; sourceTree = "<group>"; };
+		0355750E1FE18E1C008C0013 /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
 		03E0D3271FDD4CE80086EE53 /* Frutify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frutify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E0D32C1FDD4CE80086EE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		0355750B1FE18C8C008C0013 /* AppIcons */ = {
 			isa = PBXGroup;
 			children = (
-				0355750C1FE18CA8008C0013 /* icons8-categorize-50.png */,
+				0355750E1FE18E1C008C0013 /* master.png */,
 			);
 			path = AppIcons;
 			sourceTree = "<group>";
@@ -271,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E0D3381FDD4CE80086EE53 /* LaunchScreen.storyboard in Resources */,
+				0355750F1FE18E1C008C0013 /* master.png in Resources */,
 				03E0D3351FDD4CE80086EE53 /* Assets.xcassets in Resources */,
 				03E0D3301FDD4CE80086EE53 /* Main.storyboard in Resources */,
-				0355750D1FE18CA8008C0013 /* icons8-categorize-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
