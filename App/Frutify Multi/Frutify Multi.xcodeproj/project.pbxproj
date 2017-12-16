@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */; };
+		030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		03553C581FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */; };
+		0355750F1FE18E1C008C0013 /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355750E1FE18E1C008C0013 /* master.png */; };
+		0355751E1FE18E6C008C0013 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575101FE18E6B008C0013 /* 20.png */; };
+		0355751F1FE18E6C008C0013 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575111FE18E6B008C0013 /* 80.png */; };
+		035575201FE18E6C008C0013 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575121FE18E6B008C0013 /* 29.png */; };
+		035575211FE18E6C008C0013 /* 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575131FE18E6B008C0013 /* 76.png */; };
+		035575221FE18E6C008C0013 /* 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575141FE18E6B008C0013 /* 152.png */; };
+		035575231FE18E6C008C0013 /* 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575151FE18E6B008C0013 /* 167.png */; };
+		035575241FE18E6C008C0013 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575161FE18E6B008C0013 /* 1024.png */; };
+		035575251FE18E6C008C0013 /* 1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 035575171FE18E6B008C0013 /* 1024.jpg */; };
+		035575261FE18E6C008C0013 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575181FE18E6C008C0013 /* 58.png */; };
+		035575271FE18E6C008C0013 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575191FE18E6C008C0013 /* 87.png */; };
+		035575281FE18E6C008C0013 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355751A1FE18E6C008C0013 /* 180.png */; };
+		035575291FE18E6C008C0013 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355751B1FE18E6C008C0013 /* 60.png */; };
+		0355752A1FE18E6C008C0013 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355751C1FE18E6C008C0013 /* 40.png */; };
+		0355752B1FE18E6C008C0013 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355751D1FE18E6C008C0013 /* 120.png */; };
+		03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */; };
+		03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D32C1FDD4CE80086EE53 /* ViewController.swift */; };
+		03E0D3301FDD4CE80086EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0D32E1FDD4CE80086EE53 /* Main.storyboard */; };
+		03E0D3331FDD4CE80086EE53 /* Frutify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3311FDD4CE80086EE53 /* Frutify.xcdatamodeld */; };
+		03E0D3351FDD4CE80086EE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E0D3341FDD4CE80086EE53 /* Assets.xcassets */; };
+		03E0D3381FDD4CE80086EE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E0D3361FDD4CE80086EE53 /* LaunchScreen.storyboard */; };
+		03E0D3431FDD4CE80086EE53 /* FrutifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D3421FDD4CE80086EE53 /* FrutifyTests.swift */; };
+		03E0D34E1FDD4CE80086EE53 /* FrutifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0D34D1FDD4CE80086EE53 /* FrutifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E0D33F1FDD4CE80086EE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0D31F1FDD4CE80086EE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0D3261FDD4CE80086EE53;
+			remoteInfo = Frutify;
+		};
+		03E0D34A1FDD4CE80086EE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E0D31F1FDD4CE80086EE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E0D3261FDD4CE80086EE53;
+			remoteInfo = Frutify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
+		030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Frutify_MC_V1_beta.mlmodel; sourceTree = "<group>"; };
+		0355750E1FE18E1C008C0013 /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
+		035575101FE18E6B008C0013 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		035575111FE18E6B008C0013 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		035575121FE18E6B008C0013 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		035575131FE18E6B008C0013 /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
+		035575141FE18E6B008C0013 /* 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152.png; sourceTree = "<group>"; };
+		035575151FE18E6B008C0013 /* 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 167.png; sourceTree = "<group>"; };
+		035575161FE18E6B008C0013 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		035575171FE18E6B008C0013 /* 1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1024.jpg; sourceTree = "<group>"; };
+		035575181FE18E6C008C0013 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		035575191FE18E6C008C0013 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		0355751A1FE18E6C008C0013 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		0355751B1FE18E6C008C0013 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		0355751C1FE18E6C008C0013 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		0355751D1FE18E6C008C0013 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		03E0D3271FDD4CE80086EE53 /* Frutify Multi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frutify Multi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E0D32C1FDD4CE80086EE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E0D32F1FDD4CE80086EE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E0D3321FDD4CE80086EE53 /* Frutify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Frutify.xcdatamodel; sourceTree = "<group>"; };
+		03E0D3341FDD4CE80086EE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E0D3371FDD4CE80086EE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E0D3391FDD4CE80086EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E0D33E1FDD4CE80086EE53 /* Frutify MultiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frutify MultiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0D3421FDD4CE80086EE53 /* FrutifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutifyTests.swift; sourceTree = "<group>"; };
+		03E0D3441FDD4CE80086EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E0D3491FDD4CE80086EE53 /* Frutify MultiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frutify MultiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E0D34D1FDD4CE80086EE53 /* FrutifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutifyUITests.swift; sourceTree = "<group>"; };
+		03E0D34F1FDD4CE80086EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E0D3241FDD4CE80086EE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D33B1FDD4CE80086EE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D3461FDD4CE80086EE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0355750B1FE18C8C008C0013 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				0355750E1FE18E1C008C0013 /* master.png */,
+				035575101FE18E6B008C0013 /* 20.png */,
+				035575121FE18E6B008C0013 /* 29.png */,
+				0355751C1FE18E6C008C0013 /* 40.png */,
+				035575181FE18E6C008C0013 /* 58.png */,
+				0355751B1FE18E6C008C0013 /* 60.png */,
+				035575131FE18E6B008C0013 /* 76.png */,
+				035575111FE18E6B008C0013 /* 80.png */,
+				035575191FE18E6C008C0013 /* 87.png */,
+				0355751D1FE18E6C008C0013 /* 120.png */,
+				035575141FE18E6B008C0013 /* 152.png */,
+				035575151FE18E6B008C0013 /* 167.png */,
+				0355751A1FE18E6C008C0013 /* 180.png */,
+				035575171FE18E6B008C0013 /* 1024.jpg */,
+				035575161FE18E6B008C0013 /* 1024.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		03E0D31E1FDD4CE80086EE53 = {
+			isa = PBXGroup;
+			children = (
+				0355750B1FE18C8C008C0013 /* AppIcons */,
+				03E0D35B1FDD4D890086EE53 /* Model */,
+				03E0D3291FDD4CE80086EE53 /* Frutify */,
+				03E0D3411FDD4CE80086EE53 /* FrutifyTests */,
+				03E0D34C1FDD4CE80086EE53 /* FrutifyUITests */,
+				03E0D3281FDD4CE80086EE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E0D3281FDD4CE80086EE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E0D3271FDD4CE80086EE53 /* Frutify Multi.app */,
+				03E0D33E1FDD4CE80086EE53 /* Frutify MultiTests.xctest */,
+				03E0D3491FDD4CE80086EE53 /* Frutify MultiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E0D3291FDD4CE80086EE53 /* Frutify */ = {
+			isa = PBXGroup;
+			children = (
+				030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */,
+				03E0D32A1FDD4CE80086EE53 /* AppDelegate.swift */,
+				03E0D32C1FDD4CE80086EE53 /* ViewController.swift */,
+				03E0D32E1FDD4CE80086EE53 /* Main.storyboard */,
+				03E0D3341FDD4CE80086EE53 /* Assets.xcassets */,
+				03E0D3361FDD4CE80086EE53 /* LaunchScreen.storyboard */,
+				03E0D3391FDD4CE80086EE53 /* Info.plist */,
+				03E0D3311FDD4CE80086EE53 /* Frutify.xcdatamodeld */,
+			);
+			path = Frutify;
+			sourceTree = "<group>";
+		};
+		03E0D3411FDD4CE80086EE53 /* FrutifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0D3421FDD4CE80086EE53 /* FrutifyTests.swift */,
+				03E0D3441FDD4CE80086EE53 /* Info.plist */,
+			);
+			path = FrutifyTests;
+			sourceTree = "<group>";
+		};
+		03E0D34C1FDD4CE80086EE53 /* FrutifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03E0D34D1FDD4CE80086EE53 /* FrutifyUITests.swift */,
+				03E0D34F1FDD4CE80086EE53 /* Info.plist */,
+			);
+			path = FrutifyUITests;
+			sourceTree = "<group>";
+		};
+		03E0D35B1FDD4D890086EE53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E0D3261FDD4CE80086EE53 /* Frutify Multi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0D3521FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify Multi" */;
+			buildPhases = (
+				03E0D3231FDD4CE80086EE53 /* Sources */,
+				03E0D3241FDD4CE80086EE53 /* Frameworks */,
+				03E0D3251FDD4CE80086EE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frutify Multi";
+			productName = Frutify;
+			productReference = 03E0D3271FDD4CE80086EE53 /* Frutify Multi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E0D33D1FDD4CE80086EE53 /* Frutify MultiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0D3551FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify MultiTests" */;
+			buildPhases = (
+				03E0D33A1FDD4CE80086EE53 /* Sources */,
+				03E0D33B1FDD4CE80086EE53 /* Frameworks */,
+				03E0D33C1FDD4CE80086EE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0D3401FDD4CE80086EE53 /* PBXTargetDependency */,
+			);
+			name = "Frutify MultiTests";
+			productName = FrutifyTests;
+			productReference = 03E0D33E1FDD4CE80086EE53 /* Frutify MultiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03E0D3481FDD4CE80086EE53 /* Frutify MultiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E0D3581FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify MultiUITests" */;
+			buildPhases = (
+				03E0D3451FDD4CE80086EE53 /* Sources */,
+				03E0D3461FDD4CE80086EE53 /* Frameworks */,
+				03E0D3471FDD4CE80086EE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E0D34B1FDD4CE80086EE53 /* PBXTargetDependency */,
+			);
+			name = "Frutify MultiUITests";
+			productName = FrutifyUITests;
+			productReference = 03E0D3491FDD4CE80086EE53 /* Frutify MultiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E0D31F1FDD4CE80086EE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shawon Ashraf";
+				TargetAttributes = {
+					03E0D3261FDD4CE80086EE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					03E0D33D1FDD4CE80086EE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03E0D3261FDD4CE80086EE53;
+					};
+					03E0D3481FDD4CE80086EE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03E0D3261FDD4CE80086EE53;
+					};
+				};
+			};
+			buildConfigurationList = 03E0D3221FDD4CE80086EE53 /* Build configuration list for PBXProject "Frutify Multi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E0D31E1FDD4CE80086EE53;
+			productRefGroup = 03E0D3281FDD4CE80086EE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E0D3261FDD4CE80086EE53 /* Frutify Multi */,
+				03E0D33D1FDD4CE80086EE53 /* Frutify MultiTests */,
+				03E0D3481FDD4CE80086EE53 /* Frutify MultiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E0D3251FDD4CE80086EE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035575281FE18E6C008C0013 /* 180.png in Resources */,
+				035575261FE18E6C008C0013 /* 58.png in Resources */,
+				035575221FE18E6C008C0013 /* 152.png in Resources */,
+				0355752B1FE18E6C008C0013 /* 120.png in Resources */,
+				0355751E1FE18E6C008C0013 /* 20.png in Resources */,
+				035575251FE18E6C008C0013 /* 1024.jpg in Resources */,
+				0355752A1FE18E6C008C0013 /* 40.png in Resources */,
+				035575231FE18E6C008C0013 /* 167.png in Resources */,
+				035575201FE18E6C008C0013 /* 29.png in Resources */,
+				03E0D3381FDD4CE80086EE53 /* LaunchScreen.storyboard in Resources */,
+				0355750F1FE18E1C008C0013 /* master.png in Resources */,
+				035575271FE18E6C008C0013 /* 87.png in Resources */,
+				0355751F1FE18E6C008C0013 /* 80.png in Resources */,
+				03E0D3351FDD4CE80086EE53 /* Assets.xcassets in Resources */,
+				035575211FE18E6C008C0013 /* 76.png in Resources */,
+				035575241FE18E6C008C0013 /* 1024.png in Resources */,
+				03E0D3301FDD4CE80086EE53 /* Main.storyboard in Resources */,
+				035575291FE18E6C008C0013 /* 60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D33C1FDD4CE80086EE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D3471FDD4CE80086EE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E0D3231FDD4CE80086EE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0D3331FDD4CE80086EE53 /* Frutify.xcdatamodeld in Sources */,
+				03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */,
+				03553C581FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel in Sources */,
+				03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */,
+				030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D33A1FDD4CE80086EE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0D3431FDD4CE80086EE53 /* FrutifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E0D3451FDD4CE80086EE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E0D34E1FDD4CE80086EE53 /* FrutifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E0D3401FDD4CE80086EE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0D3261FDD4CE80086EE53 /* Frutify Multi */;
+			targetProxy = 03E0D33F1FDD4CE80086EE53 /* PBXContainerItemProxy */;
+		};
+		03E0D34B1FDD4CE80086EE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E0D3261FDD4CE80086EE53 /* Frutify Multi */;
+			targetProxy = 03E0D34A1FDD4CE80086EE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E0D32E1FDD4CE80086EE53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0D32F1FDD4CE80086EE53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E0D3361FDD4CE80086EE53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E0D3371FDD4CE80086EE53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E0D3501FDD4CE80086EE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E0D3511FDD4CE80086EE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E0D3531FDD4CE80086EE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				INFOPLIST_FILE = Frutify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyMulti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E0D3541FDD4CE80086EE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				INFOPLIST_FILE = Frutify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyMulti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03E0D3561FDD4CE80086EE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrutifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frutify Multi.app/Frutify Multi";
+			};
+			name = Debug;
+		};
+		03E0D3571FDD4CE80086EE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrutifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frutify Multi.app/Frutify Multi";
+			};
+			name = Release;
+		};
+		03E0D3591FDD4CE80086EE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrutifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frutify;
+			};
+			name = Debug;
+		};
+		03E0D35A1FDD4CE80086EE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrutifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frutify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E0D3221FDD4CE80086EE53 /* Build configuration list for PBXProject "Frutify Multi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0D3501FDD4CE80086EE53 /* Debug */,
+				03E0D3511FDD4CE80086EE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0D3521FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify Multi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0D3531FDD4CE80086EE53 /* Debug */,
+				03E0D3541FDD4CE80086EE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0D3551FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify MultiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0D3561FDD4CE80086EE53 /* Debug */,
+				03E0D3571FDD4CE80086EE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E0D3581FDD4CE80086EE53 /* Build configuration list for PBXNativeTarget "Frutify MultiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E0D3591FDD4CE80086EE53 /* Debug */,
+				03E0D35A1FDD4CE80086EE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03E0D3311FDD4CE80086EE53 /* Frutify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03E0D3321FDD4CE80086EE53 /* Frutify.xcdatamodel */,
+			);
+			currentVersion = 03E0D3321FDD4CE80086EE53 /* Frutify.xcdatamodel */;
+			path = Frutify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03E0D31F1FDD4CE80086EE53 /* Project object */;
+}
