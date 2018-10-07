@@ -2,7 +2,7 @@
 ## iOS application for [Fruit Image Classifier](https://github.com/ShawonAshraf/CSE499Project)
 
 ### Description
-Binary image classification of fruits. The trained model can determine whether a fruit is fresh / rotten from the given image. The app can use the camera to take images or, can load an image from the images stored on the device.
+Binary/ Multiclass image classification of fruits. The trained model can determine whether a fruit is fresh / rotten from the given image. The app can use the camera to take images or, can load an image from the images stored on the device.
 
 ### Categories Trained on so far
 
