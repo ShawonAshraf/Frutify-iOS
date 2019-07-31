@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Frutify
+//@testable import Frutify
 
 class FrutifyTests: XCTestCase {
     

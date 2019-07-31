@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */; };
 		030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
-		03553C581FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */; };
+		034D492C22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 034D492B22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel */; };
+		034D492D22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 034D492B22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel */; };
+		034D492E22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 034D492B22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel */; };
 		0355750F1FE18E1C008C0013 /* master.png in Resources */ = {isa = PBXBuildFile; fileRef = 0355750E1FE18E1C008C0013 /* master.png */; };
 		0355751E1FE18E6C008C0013 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575101FE18E6B008C0013 /* 20.png */; };
 		0355751F1FE18E6C008C0013 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 035575111FE18E6B008C0013 /* 80.png */; };
@@ -55,7 +57,7 @@
 /* Begin PBXFileReference section */
 		030DDD3C1FDD71910047D436 /* ImageClassificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationViewController.swift; sourceTree = "<group>"; };
 		030DDD3D1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
-		03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Frutify_MC_V1_beta.mlmodel; sourceTree = "<group>"; };
+		034D492B22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Frutify_MC_V1_beta.mlmodel; sourceTree = "<group>"; };
 		0355750E1FE18E1C008C0013 /* master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = master.png; sourceTree = "<group>"; };
 		035575101FE18E6B008C0013 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
 		035575111FE18E6B008C0013 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
@@ -193,7 +195,7 @@
 		03E0D35B1FDD4D890086EE53 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				03553C571FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel */,
+				034D492B22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,11 +263,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Shawon Ashraf";
 				TargetAttributes = {
 					03E0D3261FDD4CE80086EE53 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -275,11 +278,13 @@
 					};
 					03E0D33D1FDD4CE80086EE53 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 03E0D3261FDD4CE80086EE53;
 					};
 					03E0D3481FDD4CE80086EE53 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 03E0D3261FDD4CE80086EE53;
 					};
@@ -354,7 +359,7 @@
 			files = (
 				03E0D3331FDD4CE80086EE53 /* Frutify.xcdatamodeld in Sources */,
 				03E0D32D1FDD4CE80086EE53 /* ViewController.swift in Sources */,
-				03553C581FE59D3000F0FB68 /* Frutify_MC_V1_beta.mlmodel in Sources */,
+				034D492C22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */,
 				03E0D32B1FDD4CE80086EE53 /* AppDelegate.swift in Sources */,
 				030DDD3F1FDD71910047D436 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				030DDD3E1FDD71910047D436 /* ImageClassificationViewController.swift in Sources */,
@@ -366,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E0D3431FDD4CE80086EE53 /* FrutifyTests.swift in Sources */,
+				034D492D22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E0D34E1FDD4CE80086EE53 /* FrutifyUITests.swift in Sources */,
+				034D492E22F21871000DE250 /* Frutify_MC_V1_beta.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +433,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -433,6 +441,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -483,6 +492,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -490,6 +500,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -526,11 +537,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				INFOPLIST_FILE = Frutify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyMulti;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawonashraf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -541,11 +553,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				INFOPLIST_FILE = Frutify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyMulti;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shawonashraf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -559,7 +572,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frutify Multi.app/Frutify Multi";
 			};
@@ -575,7 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frutify Multi.app/Frutify Multi";
 			};
@@ -590,7 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Frutify;
 			};
@@ -605,7 +618,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FrutifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Frutify;
 			};
